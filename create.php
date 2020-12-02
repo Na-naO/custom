@@ -14,46 +14,46 @@
     <div class="col-12">
       <nav class="navbar navbar-dark bg-dark">
         <a href="index.php" class="navbar-brand">TODOAPP</a>
-          </nav>
+      </nav>
     </div>
   </div>
   <div class="col d-flex justify-content-center">
     <div class="m-5">
         <div class="center-block">
-          <div class="card" style="width: 32rem;">
-          <div class="bg-dark text-white">
-          <div class="p-5">
-          <form>
-            <div class="form-group">
-              <label for="Title">Title</label>
-              <input type="" class="form-control" id="title" placeholder="title">
+            <div class="card" style="width: 32rem;">
+                <div class="bg-dark text-white">
+                    <div class="p-5">
+                        <form action="store.php" method="post">
+                        <div class="form-group">
+                            <label for="Title">Title</label>
+                            <input type="" class="form-control" name="title" id="title" placeholder="title">
+                        </div>
+                        <div class="form-group">
+                            <label for="contents">Content</label>
+                            <input type="search" class="form-control" name="contents" id="contents" placeholder="contents">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Deadline</label>
+                            <input type="date" class="form-control" name="deadline" id="deadline" placeholder="deadline">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Type</label>
+                            <input type="text" class="form-control" name="type" id="type" placeholder="type">
+                        </div>
+                        <div class="mt-5">
+                            <div class="bg-purple text-white">
+                                <div class="col d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">POST</button>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-              <label for="contents">Content</label>
-              <input type="search" class="form-control" id="contents" placeholder="contents">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Deadline</label>
-              <input type="date" class="form-control" id="deadline" placeholder="deadline">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Type</label>
-              <input type="text" class="form-control" id="type" placeholder="type">
-            </div>
-            <div class="mt-5">
-            <div class="bg-purple text-white">
-            <div class="col d-flex justify-content-end">
-            <button type="submit" class="btn btn-primary">POST</button>
-            </div>
-            </div>
-            </div>
-            </div>
-          </form>
-          </div>
         </div>
-      </div>
     </div>
   </div>
-  </div>
+  
 </body>
 </html>
