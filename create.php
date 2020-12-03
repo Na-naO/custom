@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>作成 | TODOAPP_teamdevelopment</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
                         <div class="mt-5">
                             <div class="bg-purple text-white">
                                 <div class="col d-flex justify-content-end">
-                                <button type="submit" class="btn btn-primary">POST</button>
+                                <button type="submit" class="btn_purple">POST</button>
                                 </div>
                             </div>
                         </div>
