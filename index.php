@@ -35,7 +35,7 @@
         タイトルが入ります。
       </div>
     <div class="card__overviewtext">
-      <p>Content</p>
+      <p>Contents</p>
         概要がはいります。概要がはいります。概要がはいります。概要がはいります。
       </div>
     <div class="card_deadline">
