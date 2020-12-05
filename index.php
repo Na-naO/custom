@@ -31,19 +31,19 @@
     <div class="card__imgframe"></div>
     <div class="card__textbox">
       <div class="card__titletext">
-        <p>【Title】</p>
+        <p>Title</p>
         タイトルが入ります。
       </div>
     <div class="card__overviewtext">
-      <p>【Content】</p>
+      <p>Content</p>
         概要がはいります。概要がはいります。概要がはいります。概要がはいります。
       </div>
     <div class="card_deadline">
-      <p>【Deadline】</p>
+      <p>Deadline</p>
       期限が入ります。
     </div>
     <div class="card_type">
-      <p>【Type】</p>
+      <p>Type</p>
       種類が入ります。
     </div>
     <div class="button">
